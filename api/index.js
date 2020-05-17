@@ -2,6 +2,7 @@ require('dotenv').config()
 import express from 'express' // require('express')
 import bodyParser from 'body-parser'
 import routes from './routes'
+import AuthController from './controllers/AuthController'
 const app = express(); //Server
 
 const port = process.env.PORT || 3000;
